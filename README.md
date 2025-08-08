@@ -1,62 +1,31 @@
 Tic-Tac-Toe Game: Player vs Computer
 
-Demo: 
-This is a simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript, where a human player (X) plays against the computer (O). The computer makes random valid moves. The game automatically detects wins, ties, and disables moves accordingly.
+Demo: https://muhammadaaribali.github.io/Tic-Tac-Toe-2.0/
 
-Features
-Player plays as X and clicks on empty boxes to make a move.
+<img width="1918" height="941" alt="Screenshot 2025-08-08 223148" src="https://github.com/user-attachments/assets/a618ab03-e72f-459d-bc0f-0f191fde4b3d" />
+<img width="1919" height="948" alt="Screenshot 2025-08-08 223323" src="https://github.com/user-attachments/assets/16073ff8-f863-4684-9cd3-066f8f5364cb" />
+<img width="1919" height="945" alt="Screenshot 2025-08-08 223311" src="https://github.com/user-attachments/assets/c5bb07bf-b438-4f99-961a-618b6a767615" />
 
-Computer plays as O and makes random valid moves after the player.
+This is a simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript, where a human player (X) plays against the computer (O).
 
-Win detection for rows, columns, and diagonals for both player and computer.
+## Features
 
-Detects draw condition when all boxes are filled without a winner.
+- Player plays as **X** and clicks on empty boxes to make a move.
+- Computer plays as **O** and makes random valid moves after the player.
+- Win detection for rows, columns, and diagonals for both player and computer.
+- Detects draw condition when all boxes are filled without a winner.
+- Disables further moves after the game ends.
+- Reset button to start a new game anytime.
 
-Disables further moves after the game ends.
+## How to Use
 
-Reset button to start a new game anytime.
+1. Click on any empty box to place your **X**.
+2. Wait for the computer to place its **O** automatically.
+3. The game will alert when **X** or **O** wins or if it's a draw.
+4. Click the **Reset** button to clear the board and play again.
 
-Simple and intuitive UI with clear markings.
+## Technologies Used
 
-How to Use
-Click on any empty box to place your X.
-
-Wait for the computer to place its O automatically.
-
-The game will alert when X or O wins or if it's a draw.
-
-Click the Reset button to clear the board and play again.
-
-Technologies Used
-HTML — Game board structure.
-
-CSS — Styling and layout of the game board.
-
-JavaScript — Game logic including player moves, computer moves, win detection, and reset functionality.
-
-Project Structure
-index.html — Contains the game board and reset button.
-
-styles.css — Styling for the game board and elements.
-
-script.js — JavaScript logic for game play and interactivity.
-
-How It Works
-The game board consists of 9 clickable boxes.
-
-Player clicks a box to place X if it's empty.
-
-After the player's move, the computer picks a random empty box to place O.
-
-After each move, the game checks for a winner or a draw.
-
-When the game ends, further moves are disabled until the board is reset.
-
-Future Improvements
-Implement smarter computer AI using Minimax algorithm.
-
-Add animations and sounds for better user experience.
-
-Improve UI responsiveness for mobile devices.
-
-Track and display the score between player and computer.
+- HTML
+- CSS
+- JavaScript
