@@ -16,6 +16,7 @@ This is a simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript, where a 
 - Detects draw condition when all boxes are filled without a winner.
 - Disables further moves after the game ends.
 - Reset button to start a new game anytime.
+- Night and Darkmode Toggle switch
 
 ## How to Use
 
