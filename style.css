@@ -2,6 +2,15 @@
     font-family: "inter" , sans-serif;
     margin-top: 20px;
 }
+#mode{
+    margin-left: 4px;
+}
+#mode i{
+    font-size: 25px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+
+}
 .box{
     height: 110px;
     width: 110px;
@@ -14,4 +23,5 @@
         height: 90px;
         width: 90px;
     }
+
 }
