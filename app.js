@@ -1,4 +1,40 @@
 let boxes = document.querySelectorAll(".box");
+let mode=document.querySelector("#mode");
+let h1=document.querySelector("h1");
+let h6=document.querySelector("h6");
+let icon=document.querySelector("#mode i")
+let  modes=true;
+mode.onclick=()=>{
+
+    if(modes){
+
+            document.body.style.backgroundColor="black";
+            h1.style.color="white";
+            h6.style.color="white";
+            boxes.forEach(box => {
+            box.style.borderColor = "white";
+        });
+        icon.style.color="white";
+        icon.classList.remove("fa-moon");
+        icon.classList.add("fa-sun");
+        modes=false;
+
+    }else{
+
+        document.body.style.backgroundColor="white";
+        h1.style.color="black";
+        h6.style.color="black";
+        boxes.forEach(box => {
+            box.style.borderColor = "black";
+        });
+        icon.style.color="black";
+        icon.classList.remove("fa-sun");
+        icon.classList.add("fa-moon");
+        modes=true;
+
+
+    }
+}
 let resetbtn = document.querySelector("#reset");
 
 const boxesArray = Array.from(boxes);
@@ -198,6 +234,7 @@ resetbtn.onclick = function () {
     numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8];
     x = true;
 }
+
 
 
 
